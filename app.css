@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+	background: #ededed;
+	font-family: sans-serif;
+}
+
+.header {
+	text-align: center;
+	font-size: 2em;
+}
+
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav, .content {
+	width: 50%;
+	margin: 3px auto;
+}
+
+.content {
+	min-height: 400px;
+	padding: 0 15px;
+	background: white;
+	border: 2px solid lightgrey;
+	border-radius: 1px;
+}
